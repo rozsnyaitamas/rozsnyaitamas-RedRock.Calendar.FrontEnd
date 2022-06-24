@@ -2,6 +2,11 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
 
+## Client Generation
+Generate 'swagger.yaml' from the BackEnd project and paste it to the root of this folder. Than open cli and run command:
+
+  npm run generate-api-client
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
