@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  serverUrl: "http://redrorck.ro"
+  serverUrl: "https://redrock-calendar-backend.herokuapp.com/"
 };
