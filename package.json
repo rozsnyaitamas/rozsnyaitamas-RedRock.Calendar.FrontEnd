@@ -10,7 +10,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "generate-api-client": "api-client-generator -s ./swagger.yaml -o ./src/app/generated-html-client/ -t all",
-    "heroku-postbuild": "ng build — prod"
+    "heroku-postbuild": "ng build:prod"
   },
   "private": true,
   "dependencies": {
