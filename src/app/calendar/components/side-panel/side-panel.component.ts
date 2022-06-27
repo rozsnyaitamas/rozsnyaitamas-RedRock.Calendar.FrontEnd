@@ -22,6 +22,7 @@ export class SidePanelComponent implements OnInit {
 
   getFee(): void {
     var userId = StorageHelper.getUserId(sessionStorage);
+    this.overallSum = 0;
     if (userId) {
       this.financeService
         .getMonthlyFee(userId, this.viewDate)
