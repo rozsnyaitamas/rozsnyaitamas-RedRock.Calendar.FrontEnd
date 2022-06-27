@@ -75,6 +75,7 @@ export class InfoFormComponent implements OnInit {
       .then(() => {
         snackMessage = MsgUpdateSuccess;
         config.panelClass = [CssClassSnackSuccess];
+        sessionStorage.setItem(StorageConstants.userFullName, this.infoForm.value[UserFullNameFormControl]);
       })
       .catch(() => {
         snackMessage = MsgUpdateFail;
